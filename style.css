@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+@import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css';
+
+/*================CONTAINER-LEFT================*/
+
+body {
+  background-color: #EAE8E7;
+  font-family: Roboto, sans-serif;
+}
+
+.container-left {
+  width: 350px;
+  height: 1425px;
+  background-color: #5DA4D9;
+  float:left;
+}
+
+#name {
+  position: relative;
+  top: 280px;
+  display: block;
+  background: rgba(255,255,255,0.5);
+  padding: 0px 5px 0px 0px;
+  font-size: 35px;
+  text-align: right;
+  z-index: 2;
+  font-weight:bold;
+}
+
+.summary {
+  position:relative;
+  bottom:50px;
+}
+
+#me {
+  position: relative;
+  top: -84px;
+  width: 350px;
+  height:364px;
+}
+
+#user, #phone, #envelope, #home, #skills{
+  margin:0px 0px 0px 160px;
+  color:white;
+  font-size:30px;
+}
+
+#phone {
+  margin-top: 10px;
+}
+
+#summary, #skillslist {
+ color:#D4E7F5;
+ text-align:center;
+ padding-right:25px;
+ padding-left:25px;
+}
+
+#mobile, #work, #personal, #work, #address {
+  display:block;
+  color:#D4E7F5;
+  text-align:center;
+  margin:0px 0px 0px 0px;
+  font-size:20px;
+}
+
+#mobileid, #workid, #personalid, #workid, #addressid, #skillsid {
+  display:block;
+  text-align:center;
+  margin:20px 0px 10px 0px;
+  color:#BAD8EF;
+  font-size:20px;
+  text-decoration:underline;
+}
+
+.skillslist{
+  text-align:left;
+}
+
+.phone {
+  margin-bottom:10px;
+}
+
+.email, .home, .skills {
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+hr {
+  background-color:#D4E7F5;
+  padding-top:10px;
+}
+
+/*================CONTAINER-LEFT END================*/
